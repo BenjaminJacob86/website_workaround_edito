@@ -1,16 +1,3 @@
-# Dockerfile
-#
-# Exposes the SOCIB Marine Heatwaves page through port 8080.
-#
-# Build:
-#   docker build -t socib-marine-heatwaves .
-#
-# Run:
-#   docker run -d --name socib-marine-heatwaves -p 8080:8080 socib-marine-heatwaves
-#
-# Open:
-#   http://localhost:8080
-
 FROM nginx:alpine
 
 RUN printf '%s\n' \
